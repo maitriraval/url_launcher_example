@@ -59,7 +59,7 @@ class _UrlLauncherExampleState extends State<UrlLauncherExample> {
             children: [
               ButtonTheme(
                 minWidth: 300,
-                height: 80,
+                height: 50,
                 child: RaisedButton.icon(
                   onPressed: () {
                     _customLaunch("https://www.google.com/");
@@ -71,29 +71,29 @@ class _UrlLauncherExampleState extends State<UrlLauncherExample> {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               ButtonTheme(
                 minWidth: 300,
-                height: 80,
+                height: 50,
                 child: RaisedButton.icon(
                   color: Colors.white,
                   onPressed: () => setState(() {
-                    _customLaunch('tel:8401053663');
+                    _customLaunch('tel:8402053663');
                   }),
                   icon: Icon(Icons.call),
                   label: Text("Call", style: TextStyle(fontSize: 18)),
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               ButtonTheme(
                 minWidth: 300,
-                height: 80,
+                height: 50,
                 child: RaisedButton.icon(
                   onPressed: () {
-                    _customLaunch('sms:+8401053663');
+                    _customLaunch('sms:+8402053663');
                   },
                   icon: Icon(Icons.sms),
                   label: Text("Send an SMS", style: TextStyle(fontSize: 18)),
@@ -101,14 +101,14 @@ class _UrlLauncherExampleState extends State<UrlLauncherExample> {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               ButtonTheme(
                 minWidth: 300,
-                height: 80,
+                height: 50,
                 child: RaisedButton.icon(
                   onPressed: () {
-                    _customLaunch("mailto:maitriraval10@gmail.com");
+                    _customLaunch("mailto:maitriraval20@gmail.com");
                   },
                   label: Text("Send an Email", style: TextStyle(fontSize: 18)),
                   icon: Icon(Icons.email),
@@ -118,11 +118,11 @@ class _UrlLauncherExampleState extends State<UrlLauncherExample> {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               ButtonTheme(
                 minWidth: 300,
-                height: 80,
+                height: 50,
                 child: RaisedButton.icon(
                   onPressed: () {
                     launchWhatsApp(phone: '919724596079', message: "hello");
@@ -134,11 +134,11 @@ class _UrlLauncherExampleState extends State<UrlLauncherExample> {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               ButtonTheme(
                 minWidth: 300,
-                height: 80,
+                height: 50,
                 child: RaisedButton.icon(
                   onPressed: () {
                     launchMap(lat: "23.033863", lng: "72.585022");
